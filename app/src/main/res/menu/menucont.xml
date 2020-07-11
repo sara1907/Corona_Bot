@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/between_person"
+        android:orderInCategory="200"
+        android:title="Between Person"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/from_you"
+        android:orderInCategory="300"
+        android:title="From You"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id = "@+id/volume_up"
+        android:icon="@mipmap/volume_up"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Volume UP"
+        android:visibility="visible"
+        />
+    <item
+        android:id="@+id/volume_down"
+        android:icon="@mipmap/volume_down"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Volume DOWN"
+        android:visibility="invisible" />
+    <item
+        android:title="About App"
+        android:id="@+id/about_app"
+        />
+
+</menu>
